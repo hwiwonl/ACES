@@ -106,7 +106,7 @@ APPNAME=PinLock {REPO_ROOT}/compiler/tools/build_final.sh record run
 
 #### Create Makefile and build application
 
-cd to appropriate SW4STM32 directory under STM32Cube_FW_F4_V1.14.0/Projects/STM32469I_EVAL/Applications
+cd to appropriate SW4STM32 directory under STM32Cube_FW_F4_V1.24.0/Projects/STM32469I_EVAL/Applications
 
 ```
 cd STM32469I_EVAL
