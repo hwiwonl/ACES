@@ -8,40 +8,24 @@ Both have many more open sourced software:
 *  [DCSL Software](https://github.com/purdue-dcsl)
 
 
-
 It has been tested on Ubuntu 16.04 other versions of linux may work.
 
 
 ## Dependencies
 Install following on Ubuntu 16.04
-```
-build-essentials
-make
-texinfo
-bison
-flex
-cmake
-ninja-build
-ncurses-dev
-llvm-dev
-clang
-texlive-full
-binutils-dev
-python-networkx
-python-matplotlib
-python-pygraphviz
-python-serial
-pypip
+```bash
+sudo apt install build-essential make texinfo bison flex cmake ninja-build ncurses-dev llvm-dev clang binutils-dev python-networkx python-matplotlib python-pygraphviz python-serial texlive-full python-pip
 ```
 
-```
-pip install pydotplus
+```bash
+python -m pip install pydotplus
 ```
 
 ##  Setup
 To setup the project for the first time clone repo then run.
 
-```
+```bash
+git clone --depth=1 https://github.com/hwiwonl/ACES.git && cd ACES
 cd compiler
 ci_scripts/init_project.sh
 ci_scripts/ci-build.sh
