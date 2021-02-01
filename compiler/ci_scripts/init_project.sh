@@ -63,8 +63,8 @@ then
      cd ${PROJECT_ROOT_DIR}/gcc
   fi
   cd ${PROJECT_ROOT_DIR}/gcc/gcc-arm-none-eabi-6-2017-q1-update/pkg
-  tar -xjf gcc-arm-none-eabi-6-2018-q3-update-linux.tar.bz2
-  mv gcc-arm-none-eabi-6-2018-q3-update ../../bins
+  tar -xjf gcc-arm-none-eabi-6-2021-q1-update-linux.tar.bz2
+  mv gcc-arm-none-eabi-6-2021-q1-update ../../bins
   cd ${COMPILER_DIR}
 fi
 
