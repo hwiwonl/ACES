@@ -2,3 +2,5 @@
 /llvm
 
 *.pyc
+
+.vscode
